@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 50px;
+}
+
+#pageContainer {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 10px gray;
+}
+
+#mainHeading {
+    color: darkblue;
+    margin-bottom: 25px;
+}
+
+#nameInput {
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#greetingButton {
+    background-color: blue;
+    color: white;
+}
+
+#backgroundButton {
+    background-color: green;
+    color: white;
+}
+
+#resetButton {
+    background-color: red;
+    color: white;
+}
+
+#messageArea {
+    margin-top: 25px;
+    font-weight: bold;
+    color: #333;
+}
